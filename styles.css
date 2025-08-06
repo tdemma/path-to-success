@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+
+
+h1,h2 {
+    font-family: kavoon;
+    color: #ffffff;
+}
+
+h3,h4,p,ul,nav,a,th,td{
+    font-family: Inter;
+}
+
+h1{
+    font-size: 3em;
+}
+
+nav h2{
+    font-family: Inter;
+    font-style: italic;
+    font-size: 1.5em;
+    color: #1E1E1E;
+    text-align: center;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+h4{
+    font-size: 1.15em;
+}
+
+html{
+    background-color: #6B8FE7;
+    padding: 0;
+    margin-top: 0;
+}
+body{
+    background-color: #484FB7;
+    max-width: 450px;
+    margin: auto;
+}
+
+body h1{
+    text-align: center;
+    color:#ffffff;
+    margin-top: 10px;
+}
+
+body p{
+    font-style: italic;
+    text-align: center;
+    color:#ffffff;
+}
+
+nav{
+    background-color: #E9BB57;
+    margin: 0 auto;
+    text-align: left;
+    align-content: center;
+    padding: 5px;
+}
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    font-weight: bold;
+    display: inline-block;
+    background-color: #ffffff;
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    
+}
+nav a{
+    text-decoration: none;
+    color: blue;
+}
+
+#Services section{
+    margin: 10px;
+}
+
+#Services h2{
+    margin: 20px;
+    padding-bottom: 0;
+}
+
+#Services h3{
+    color:#E9BB57;
+    padding-top: 0px;
+    margin: 10px;
+
+}
+#Services h4{
+    color: #484FB7;
+}
+
+#Services section div{
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 25px;
+    margin: 10px 20px 10px 20px;
+    padding: 20px;
+}
+
+#Services section div p{
+    color: #1E1E1E;
+    text-align: left;
+    font-style: normal;
+}
+
+#why_choose{
+    background-color: #D9526F;
+    padding: 5px;
+    margin: 0px;
+    display: inline-block;
+
+}
+
+#why_choose h2{
+    margin: 10px;
+}
+
+#why_choose ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    align-content: left;
+    gap: 10px;
+    list-style: none;
+
+}
+
+#l1{
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #4CA7C0;
+    text-align: center;
+    padding: 15px;
+
+}
+#l2{
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #6B8FE7;
+    text-align: center;
+    padding: 15px;
+
+}
+#l3{
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #E9BB57;
+    text-align: center;
+    padding: 15px;
+
+}
+#l4{
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+
+}
+
+#prices{
+    display: inline-block;
+}
+#prices h2,h3{
+    margin: 10px ;
+    padding: 0px;
+}
+#prices h3{
+    color:#E9BB57;
+}
+table{
+    margin: 10px 100px;
+    
+    border: 2px solid #E9BB57;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #E9BB57;
+    padding: 15px;
+
+}
+
+td{
+    border: 2px solid #E9BB57;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#first_step{
+    background-color: #D9526F;
+    color: #ffffff;
+    padding-top: 2px;
+
+}
+#first_step h2{
+    margin: 10px 10px;
+    padding: 0px;
+}
+#first_step p{
+    text-align: left;
+    margin: 20px 10px;
+}
+
+#button{
+    background-color: #ffffff;
+    color: #1E1E1E;
+    font-weight: bold;
+    box-shadow: 5px 10px#1E1E1E;
+    border-radius: 10px;
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 75px;
+    padding:25px;
+}
+footer a,p {
+    margin: 50px auto;
+    color:#ffffff;
+    display: inline;
+    font-style: normal;
+}
+
